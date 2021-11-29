@@ -16,7 +16,7 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
 app.title = 'Global HIV Statistics for 2018'
-githublink = 'https://github.com/calijason76/hiv-statistics'
+githublink = 'https://github.com/austinlasseter/hiv-statistics#global-hiv-statistics-for-2018'
 sourceurl = 'http://apps.who.int/gho/data/node.main.618?lang=en'
 
 ###### Define the Layout
